@@ -1,0 +1,36 @@
+{
+  "name": "ibexhub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sign-in": "node sign-in.js",
+    "refresh-token": "node refresh-token.js",
+    "get-all-currencies": "node get-all-currencies.js",
+    "create-account": "node create-account.js",
+    "generate-lightning-address": "node generate-lightning-address.js",
+    "generate-invoice":"node generate-invoice.js",
+    "generate-onchain-address":"node generate-onchain-address.js",
+    "estimate-fees":"node estimate-fees.js",
+    "basic-flow": "node basic-flow.js",
+    "create-split": "node create-split.js",
+    "get-account-details": "node get-account-details.js",
+    "test": "jest"
+  },
+  "author": "sibi-smonkyisthatyou",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module",
+  "jest": {
+    "transform": {
+      "^.+\\.m?js$": "babel-jest"
+    }
+  }
+}
