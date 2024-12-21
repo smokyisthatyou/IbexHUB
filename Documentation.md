@@ -32,10 +32,10 @@ Here is a brief explanation of how to run each module, along with the required p
 
 > [!note]
 > For an easier use, i suggest exporting the often used variables in the shell for future uses, like so:
->```shell
+```shell
 export EMAIL=’your_email’
 export PWD=’your_pwd’ 
->```
+```
 #### sign-in.js
  ```shell
  npm run sign-in -- $EMAIL $PWD
